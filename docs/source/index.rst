@@ -53,9 +53,10 @@ Install
 To install Intake Take2:
 
 .. code-block:: bash
-
-    pip install -c conda-forge intake
-    or
+    conda install -c conda-forge intake
+    # or
+    pixi global install -c conda-forge intake
+    # or
     pip install intake
 
 Please leave issues and discussions on our `repo page`_.
